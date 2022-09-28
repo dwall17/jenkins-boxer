@@ -1,0 +1,6 @@
+name: test-job
+description: This is a test from a cow
+
+containers:
+    - name:  cowsay
+      image: jwplayer/docker-utils:cowsay
